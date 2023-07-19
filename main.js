@@ -31,8 +31,8 @@ function adicionaLinha(){
         linhas += linha;
     }
 
-    inputNomeContato = '';
-    inputNumeroContato = '';
+    inputNomeContato.value = '';
+    inputNumeroContato.value = '';
 }
 
 function atualizaTabela() {
